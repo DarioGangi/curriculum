@@ -29,7 +29,13 @@
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
+
+\usepackage{booktabs}
 \usepackage[scale=0.75]{geometry} % Reduce document margins
+
+\definecolor{cvcolor}{RGB}{56, 115, 178}
+
+
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -39,6 +45,8 @@
 
 \firstname{Dario} % Your first name
 \familyname{Gangi} % Your last name
+
+\setlength\tabcolsep{6pt}
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
@@ -236,22 +244,38 @@
 
 \cvitemwithcomment{Lingua Madre}{Italiano}{}
 
+\cvitemwithcomment{Inglese}
+{%
+	\centering
+	\begin{tabular}{*{5}{c}}
+		\toprule
+		\multicolumn{2}{c}{\textcolor{cvcolor}{COMPRENSIONE}} & \multicolumn{2}{c}{\textcolor{cvcolor}{PARLATO}}          & \textcolor{cvcolor}{PRODUZIONE SCRITTA} \\ \midrule
+		& & \textcolor{cvcolor}{Interazione} & \textcolor{cvcolor}{Produzione} & \\
+		\textcolor{cvcolor}{Ascolto}         & \textcolor{cvcolor}{Lettura}        &  \textcolor{cvcolor}{orale} &  \textcolor{cvcolor}{orale} & -       \\             B1                & B2              & B1                 & B1                & B2      \\ \bottomrule
+	\end{tabular}%
+}{}
 
-
-\cvitemwithcomment{Inglese}{Intermediate}{Conversationally fluent}
-\cvitemwithcomment{Dutch}{Basic}{Basic words and phrases only}
+\cvitemwithcomment{Tedesco}
+{%
+	\centering
+	\begin{tabular}{*{5}{c}}
+		\toprule
+		\multicolumn{2}{c}{\textcolor{cvcolor}{COMPRENSIONE}} & \multicolumn{2}{c}{\textcolor{cvcolor}{PARLATO}}          & \textcolor{cvcolor}{PRODUZIONE SCRITTA} \\ \midrule
+		& & \textcolor{cvcolor}{Interazione} & \textcolor{cvcolor}{Produzione} & \\
+		\textcolor{cvcolor}{Ascolto}         & \textcolor{cvcolor}{Lettura}        &  \textcolor{cvcolor}{orale} &  \textcolor{cvcolor}{orale} & -       \\             A1                & A1              & A1                 & A1                & A1      \\ \bottomrule
+	\end{tabular}%
+}{}
 
 %----------------------------------------------------------------------------------------
 %	INTERESTS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Interests}
+\section{Interessi}
 
 \renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
 
-\cvlistdoubleitem{Piano}{Chess}
-\cvlistdoubleitem{Cooking}{Dancing}
-\cvlistitem{Running}
+\cvlistdoubleitem{Retrogaming}{Informatica}
+\cvlistdoubleitem{Cinema}{}
 
 %----------------------------------------------------------------------------------------
 
