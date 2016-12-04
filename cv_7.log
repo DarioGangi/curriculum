@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  4 DEC 2016 21:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.11.3)  4 DEC 2016 22:07
 entering extended mode
 **./cv_7.tex
 (cv_7.tex
@@ -834,7 +834,7 @@ Package rerunfilecheck Info: File `cv_7.out' has not changed.
 Here is how much of TeX's memory you used:
  12831 strings out of 493334
  188364 string characters out of 3139252
- 318256 words of memory out of 3000000
+ 317256 words of memory out of 3000000
  16096 multiletter control sequences out of 15000+200000
  79010 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -850,7 +850,7 @@ public/lm/lmssbx10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsso
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><D:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmtt10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (8 pages, 2818691 bytes).
+Output written on cv_7.pdf (8 pages, 2818680 bytes).
 PDF statistics:
  199 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
