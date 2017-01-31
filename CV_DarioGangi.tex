@@ -26,6 +26,8 @@
 
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
@@ -51,7 +53,7 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Piazza Giacomo Matteotti, 40}{57126 - Livorno (Italia)}
+\address{Piazzale Marconi, 5}{27058 - Voghera (PV) - Italia}
 \mobile{(+39) 333 6567094}
 %\phone{(000) 111 1112}
 %\fax{(000) 111 1113}
@@ -72,81 +74,12 @@
 \makecvtitle % Print the CV title
 
 %----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Istruzione}
-\cventry{2001--2006}{Diploma di Ragioniere Programmatore}{ITC Paolo Dagomari}{Via di Reggiana, 86, 59100 - Prato (Italia)}{}{\url{http://www.itesdagomari.it/ }}
-
-
-\cventry{2007--2013}{Laurea Triennale in Informatica}{Universit\`{a} degli Studi "La Sapienza"}{Via Salaria, 113, 00198 - Roma (Italia)}
-{
-	\newline{}
-	\textit{\textbf{Votazione conseguita:} 103/110}
-}
-{
-	\url{http://www.studiareinformatica.uniroma1.it}
-	\begin{itemize}
-		\item Conoscenze matematiche avanzate
-		\item Conoscenze di programmazione in C e Java
-		\item Conoscenze di linguaggi funzionali
-		\item Conoscenze base sull'architettura di rete, modelli ISO-OSI e TCP/IP
-		\item Conoscenze a basso livello nei sistemi operativi UNIX
-		\item Conoscenze dell'architettura di un elaboratore
-		\item Conoscenze riguardo la progettazione e l'analisi di un software
-		\item Conoscenze teoriche e pratiche riguardo le basi di dati
-		\item Progettazione e analisi di algoritmi
-	\end{itemize}
-}
-
-
-\cventry{2007--2008}{Certificato in Videogame Programming}{Accademia Italiana Videogiochi}{Viale Ippocrate, 73, 00161 - Roma (Italia)}{}
-{
-	\url{http://www.aiv01.it}
-	\begin{itemize}
-		\item Programmazione in linguaggi C\textbackslash C++
-		\item Programmazione in linguaggio C\# Orientato a Oggetti
-		\item Utilizzo di Microsoft Visual Studio 2007/2010
-		\item Utilizzo di sistemi di software di controllo versione CVS, SVN e Microsoft Team Foundation Version Control
-		\item Programmazione con DirectX 9.0c
-		\item Programmazione di pixel shader e vertex shader con linguaggio HLSL
-	\end{itemize}
-}
-
-
-\cventry{2013--2016}{Laurea Magistrale in Informatica}{Universit\`{a} degli Studi di Roma "La Sapienza"}{Via Salaria, 113, 00198 - Roma (Italia)}
-{
-	\newline{}
-	\textit{\textbf{Votazione conseguita:} 110 e lode/110}
-}
-{
-	\url{http://www.studiareinformatica.uniroma1.it}
-	\begin{itemize}
-		\item Studio e programmazione in ambito della grafica computazionale (algoritmo di ray tracing, pipeline grafica, OpenGL, GLSL)
-		\item Elaborazione delle immagini nell'ambito della visione artificiale e dei sistemi biometrici (utilizzo di OpenCV)
-		\item Studio nell'ambito dell'Information Retrivial (utilizzo delle Twitter API, tramite Twitter4j)
-		\item Studio di Big Data e utilizzo di Hadoop tramite Amazon Web Service
-		\item Studio nell'ambito dell'informatica teorica (calcolabilit\`{a}, complessit\`{a}, lambda calcolo)
-		\item Studio nell'ambito della gamification e utilizzo del motore graficio Unity
-		\item Studio dell'interazione tra uomo e macchina, anche tramite sistemi multimodali
-		\item Studio approfondito sulla progettazione, gestione delle reti e cloud computing
-		\item Studio teorico e applicazione pratica di varie tecniche di Machine Learning
-	\end{itemize}
-}
-
-\section{Tesi di Laurea Magistrale}
-
-\cvitem{Titolo}{\emph{Un Sistema per l'Analisi dei Cambiamenti in Immagini Acquisite da UAV per la Sorveglianza Attiva}}
-\cvitem{Relatore}{Professore Luigi Cinque}
-\cvitem{Descrizione}{Progettazione e sviluppo di un sistema di sorveglianza attiva che ha l'obiettivo di rilevare dei cambiamenti, in particolare in ambienti outdoor non urbani. Tale sistema dovr\`{a} analizzare le immagini aeree acqusite da un drone UAV che monitora una specifica zona. Il sistema \`{e} stato sviluppato in linguaggio C++ con l'ausilio della libreria OpenCV.}
-
-%----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Esperienze}
+\section{ESPERIENZE}
 
-\subsection{Professionali}
+\subsection{Lavorative}
 
 \cventry{11/2008--01/2011}{Programmatore}{Elemental srl}{Viale Ippocrate, 73, 00161 - Roma (Italia)}{}
 {
@@ -176,8 +109,6 @@
 	\end{itemize}
 }
 
-\subsection{Varie}
-
 \cventry{11/2012--04/2013}{Programmatore}{Centro di Ricerca C.A.T.T.I.D. Universit\`{a} degli Studi "La Sapienza"}{Roma}{}
 {
 	\begin{itemize}
@@ -188,6 +119,7 @@
 }
 
 
+\subsection{Formative}
 
 \cventry{04/2014--06/2014}{Programmatore}{Universit\`{a} degli Studi "La Sapienza"}{Roma}{}
 {
@@ -202,8 +134,6 @@
 	\end{itemize}
 }
 
-
-
 \cventry{05/2014--09/2014}{Programmatore}{Universit\`{a} degli Studi "La Sapienza"}{Roma}{}
 {
 	\begin{itemize}
@@ -217,10 +147,93 @@
 }
 
 %----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{INFORMAZIONI PERSONALI}
+\textbf{Nome}: \hspace{8mm} Dario Gangi
+\\
+\textbf{Indirizzo}: \hspace{4mm} Piazzale Marconi, 5 - 27058 Voghera (PV)
+\\
+\textbf{Cellulare}: \hspace{4.5mm} (+39) 333 65 67 094
+\\
+\textbf{Email}: \hspace{9mm} dariogangi@hotmail.com
+\\
+\textbf{Skype}: \hspace{8.5mm} dario.gangi
+
+
+\section{ISTRUZIONE}
+\cventry{2001--2006}{Diploma di Ragioniere Programmatore}{ITC Paolo Dagomari}{Via di Reggiana, 86, 59100 - Prato (Italia)}{}
+{
+	%\url{http://www.itesdagomari.it/ }
+}
+
+
+\cventry{2007--2013}{Laurea Triennale in Informatica}{Universit\`{a} degli Studi "La Sapienza"}{Via Salaria, 113, 00198 - Roma (Italia)}
+{
+	\newline{}
+	\textit{\textbf{Votazione conseguita:} 103/110}
+}
+{
+%\url{http://www.studiareinformatica.uniroma1.it}
+	\begin{itemize}
+		\item Conoscenze matematiche avanzate
+		\item Conoscenze di programmazione in C e Java
+		\item Conoscenze di linguaggi funzionali
+		\item Conoscenze base sull'architettura di rete, modelli ISO-OSI e TCP/IP
+		\item Conoscenze a basso livello nei sistemi operativi UNIX
+		\item Conoscenze dell'architettura di un elaboratore
+		\item Conoscenze riguardo la progettazione e l'analisi di un software
+		\item Conoscenze teoriche e pratiche riguardo le basi di dati
+		\item Progettazione e analisi di algoritmi
+	\end{itemize}
+}
+
+
+\cventry{2007--2008}{Certificato in Videogame Programming}{Accademia Italiana Videogiochi}{Viale Ippocrate, 73, 00161 - Roma (Italia)}{}
+{
+	%\url{http://www.aiv01.it}
+	\begin{itemize}
+		\item Programmazione in linguaggi C\textbackslash C++
+		\item Programmazione in linguaggio C\# Orientato a Oggetti
+		\item Utilizzo di Microsoft Visual Studio 2007/2010
+		\item Utilizzo di sistemi di software di controllo versione CVS, SVN e Microsoft Team Foundation Version Control
+		\item Programmazione con DirectX 9.0c
+		\item Programmazione di pixel shader e vertex shader con linguaggio HLSL
+	\end{itemize}
+}
+
+
+\cventry{2013--2016}{Laurea Magistrale in Informatica}{Universit\`{a} degli Studi di Roma "La Sapienza"}{Via Salaria, 113, 00198 - Roma (Italia)}
+{
+	\newline{}
+	\textit{\textbf{Votazione conseguita:} 110 e lode/110}
+}
+{
+	%\url{http://www.studiareinformatica.uniroma1.it}
+	\begin{itemize}
+		\item Studio e programmazione in ambito della grafica computazionale (algoritmo di ray tracing, pipeline grafica, OpenGL, GLSL)
+		\item Elaborazione delle immagini nell'ambito della visione artificiale e dei sistemi biometrici (utilizzo di OpenCV)
+		\item Studio nell'ambito dell'Information Retrivial (utilizzo delle Twitter API, tramite Twitter4j)
+		\item Studio di Big Data e utilizzo di Hadoop tramite Amazon Web Service
+		\item Studio nell'ambito dell'informatica teorica (calcolabilit\`{a}, complessit\`{a}, lambda calcolo)
+		\item Studio nell'ambito della gamification e utilizzo del motore graficio Unity
+		\item Studio dell'interazione tra uomo e macchina, anche tramite sistemi multimodali
+		\item Studio approfondito sulla progettazione, gestione delle reti e cloud computing
+		\item Studio teorico e applicazione pratica di varie tecniche di Machine Learning
+	\end{itemize}
+}
+
+\section{TESI DI LAUREA MAGISTRALE}
+
+\cvitem{Titolo}{\emph{Un Sistema per l'Analisi dei Cambiamenti in Immagini Acquisite da UAV per la Sorveglianza Attiva}}
+\cvitem{Relatore}{Professore Luigi Cinque}
+\cvitem{Descrizione}{Progettazione e sviluppo di un sistema di sorveglianza attiva che ha l'obiettivo di rilevare dei cambiamenti, in particolare in ambienti outdoor non urbani. Tale sistema dovr\`{a} analizzare le immagini aeree acqusite da un drone UAV che monitora una specifica zona. Il sistema \`{e} stato sviluppato in linguaggio C++ con l'ausilio della libreria OpenCV.}
+
+%----------------------------------------------------------------------------------------
 %	COMMUNICATION SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Competenze comunicative}
+\section{COMPETENZE COMUNICATIVE}
 
 \cvitem{}{Buone competenze comunicative in team di sviluppo acquisite grazie alle esperienze lavorative.}
 \cvitem{}{Buone capacit\`{a} di comunicazione davanti a un pubblico di persone, acquisite durante alcune presentazioni e conferenze in ambito universitario.}
@@ -230,18 +243,19 @@
 %	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Competenze professionali}
+\section{COMPETENZE PROFESSIONALI}
 
-\cvitem{Completa}{C\#, C\textbackslash C++}
+\cvitem{Completa}{C\textbackslash C++, C\#}
 \cvitem{Avanzata}{Java}
 \cvitem{Buone\textbackslash Ottime}{Unity 3D, OpenCV, Microsoft .Net, Microsoft Visual Studio, XNA, Windows Phone SDK, NetBeans, Eclipse, \LaTeX}
-\cvitem{Sufficiente}{OpenGL, Boost C++, DirectX, HLSL, GLSL, Twitter4j, SQL, Linguaggi funzionali, Programmazione Assembly di architetture MIPS R2000/R3000, Android SDK, Cisco IOS}
+\cvitem{Sufficiente}{OpenGL, Boost C++, DirectX, HLSL, GLSL, Twitter4j, SQL, Linguaggi funzionali, Programmazione Assembly di architetture MIPS R2000/R3000, Android SDK, Cisco IOS, Amazon Web Services, Hadoop}
 
+\clearpage
 %----------------------------------------------------------------------------------------
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Conoscenze linguistiche}
+\section{CONOSCENZE LINGUISTICHE}
 
 \cvitemwithcomment{Lingua Madre}{Italiano}{}
 
@@ -280,10 +294,10 @@
 
 %----------------------------------------------------------------------------------------
 
+\includepdf[pages=-]{CertificatoLaureaMagistraleConEsami_multipagina.pdf}
+\includepdf[pages=-]{CertificatoLaureaConEsami_multipagina.pdf}
+\includepdf[pages=-]{attestatoAIV.pdf}
 
-\includepdf[pages=-]{aiv1.pdf}
-\includepdf[pages=-]{aiv2.pdf}
-\includepdf[pages=-]{voto_triennale.pdf}
-\includepdf[pages=-]{voto_magistrale.pdf}
+
 
 \end{document}
