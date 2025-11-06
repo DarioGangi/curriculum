@@ -1,0 +1,1 @@
+https://github.com/DarioGangi/curriculum/blob/main/CV_DarioGangi.pdf
