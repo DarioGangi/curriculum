@@ -1,1 +1,1 @@
-https://github.com/DarioGangi/curriculum/blob/main/CV_DarioGangi.pdf
+https://github.com/DarioGangi/curriculum/blob/master/CV_DarioGangi.pdf
